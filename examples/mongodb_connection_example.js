@@ -5,7 +5,8 @@ const { MongoClient } = require('mongodb');
 const uri = 'mongodb://localhost:27017';
 
 // Database Name
-const dbName = 'bookstore';
+const db = client.db("plp_bookstore");
+
 
 // Create a new MongoClient
 const client = new MongoClient(uri);
